@@ -1,0 +1,20 @@
+<div class="container m-5 text-center">
+
+   <img [src]="Posts.poster" class="rounded col-lg-3 mx-auto d-block shadow img-fluid" alt="">
+
+    <h1 class="mb-3">{{Posts.title}}</h1>
+
+    <p>{{Posts.body}}</p>
+
+    <br>
+
+    <div class="comments">
+
+        <div class="card w-75" *ngFor="let comment of Coments">
+            <div class="card-body">
+              <p class="card-text">{{comment.title}}</p>
+             
+            </div>
+          </div>   
+    </div>
+</div>

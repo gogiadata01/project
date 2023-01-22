@@ -1,0 +1,22 @@
+.mycart{
+    position: relative;
+}
+span{   
+    position: absolute;
+    display: flex;
+    background-color: rgb(224, 30, 69);
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    border-radius: 50%;
+   transform: translate(13px, -5px);
+}
+
+svg{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+}
